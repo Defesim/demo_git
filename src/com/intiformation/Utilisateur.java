@@ -33,6 +33,17 @@ public class Utilisateur {
 		this.prenom = prenom;
 	}
 	
+	/**
+	 * ctor chargé sans id
+	 * @param nom
+	 * @param prenom
+	 */
+	public Utilisateur(String nom, String prenom) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+	}
+
 	/*__________ gt&st __________*/
 	public int getId() {
 		return id;
